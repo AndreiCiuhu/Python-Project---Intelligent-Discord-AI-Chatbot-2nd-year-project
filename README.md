@@ -16,30 +16,6 @@ Acest proiect implementează un bot inteligent pentru Discord, creat în Python,
 - OpenAI API (ChatGPT)
 - dotenv (pentru gestionarea cheilor API în siguranță)
 
-## Instalare și rulare
-1. Clonează repository-ul:
-```
-git clone https://github.com/user/bot-discord-python.git
-```
-
-2. Creează un mediu virtual și instalează dependențele:
-```bash
-python -m venv env
-source env/bin/activate
-pip install -r requirements.txt
-```
-
-3. Configurează fișierul `.env` cu cheile tale:
-```env
-DISCORD_TOKEN_BOT=token-ul-tau-discord
-OPEN_AI_KEY=cheia-ta-openai
-```
-
-4. Rulează bot-ul:
-```bash
-python cod_proiect_bot_discord.py
-```
-
 ## Exemple comenzi
 ```bash
 !hello
@@ -67,30 +43,6 @@ This project implements an intelligent Discord bot developed in Python. The bot 
 - YouTube_dl (for music management)
 - OpenAI API (ChatGPT)
 - dotenv (for secure API key management)
-
-## Installation and Running
-1. Clone the repository:
-```
-git clone https://github.com/user/bot-discord-python.git
-```
-
-2. Create a virtual environment and install dependencies:
-```bash
-python -m venv env
-source env/bin/activate
-pip install -r requirements.txt
-```
-
-3. Configure the `.env` file with your API keys:
-```env
-DISCORD_TOKEN_BOT=your-discord-token
-OPEN_AI_KEY=your-openai-key
-```
-
-4. Run the bot:
-```bash
-python cod_proiect_bot_discord.py
-```
 
 ## Example commands
 ```bash
